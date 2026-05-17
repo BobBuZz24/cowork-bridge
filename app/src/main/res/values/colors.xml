@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#1565C0</color>         <!-- Blue 800 -->
+    <color name="primary_dark">#003c8f</color>
+    <color name="accent">#0288D1</color>           <!-- Light Blue 700 -->
+    <color name="background">#F5F7FA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#757575</color>
+    <color name="green_500">#4CAF50</color>
+    <color name="red_500">#F44336</color>
+    <color name="card_connected">#E8F5E9</color>   <!-- Light green tint -->
+    <color name="card_disconnected">#FFEBEE</color> <!-- Light red tint -->
+</resources>

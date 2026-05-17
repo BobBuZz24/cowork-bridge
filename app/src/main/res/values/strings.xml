@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CoWork Bridge</string>
+
+    <!-- Status -->
+    <string name="status_wifi_ok">WiFi connecté ✓</string>
+    <string name="status_no_wifi">Pas de WiFi — connectez-vous d\'abord</string>
+    <string name="not_connected">Non connecté</string>
+    <string name="unknown">Inconnu</string>
+
+    <!-- Labels -->
+    <string name="section_connection">Connexion ADB</string>
+    <string name="section_network">Réseau</string>
+    <string name="section_setup">Guide de configuration</string>
+    <string name="section_options">Options</string>
+    <string name="label_ip">Adresse IP locale</string>
+    <string name="label_adb_command">Commande ADB (Linux)</string>
+    <string name="label_wifi">Réseau WiFi</string>
+    <string name="label_device">Appareil</string>
+
+    <!-- Actions -->
+    <string name="copy">Copier</string>
+    <string name="refresh">↻  Actualiser</string>
+    <string name="wifi_settings">Paramètres WiFi</string>
+    <string name="open_dev_options">Ouvrir les Options développeur</string>
+
+    <!-- Setup steps -->
+    <string name="setup_step1">① Connectez ce téléphone et le PC Linux au même réseau WiFi</string>
+    <string name="setup_step2">② Activez le Débogage USB dans Options développeur</string>
+    <string name="setup_step3">③ Branchez le câble USB, puis sur le PC :</string>
+    <string name="adb_tcpip_hint">→ adb tcpip 5555\n→ adb connect %1$s:5555\n→ (débranchez le câble)</string>
+    <string name="connect_wifi_first">Connectez-vous au WiFi d\'abord</string>
+    <string name="nav_to_dev_options">Allez dans Paramètres → Options développeur</string>
+
+    <!-- Options -->
+    <string name="keep_screen_on">Garder l\'écran allumé</string>
+    <string name="bg_service">Service en arrière-plan</string>
+    <string name="bg_service_desc">Affiche l\'IP dans la barre de notification</string>
+    <string name="screen_keep_on">Écran toujours allumé</string>
+    <string name="screen_normal">Délai d\'extinction normal</string>
+
+    <!-- Clipboard -->
+    <string name="copied_to_clipboard">IP copiée !</string>
+    <string name="adb_command_copied">Commande ADB copiée !</string>
+
+    <!-- Notification -->
+    <string name="notif_title">CoWork Bridge actif</string>
+    <string name="notif_channel_name">Bridge ADB</string>
+    <string name="notif_channel_desc">Affiche l\'IP ADB en permanence</string>
+</resources>
